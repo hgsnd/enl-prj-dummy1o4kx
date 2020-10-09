@@ -13,7 +13,7 @@
     <a-scene embedded loading-screen="enabled: false;" arjs="sourceType: webcam; debugUIEnabled: false;">
         <a-image src="assets/asset.png" look-at="[gps-camera]" scale="20 20 1"
             gps-entity-place="latitude: 33.844814; longitude: 132.766128;"></a-image>
-        <a-camera gps-camera rotation-reader></a-camera>
+        <a-camera gps-camera rotation-reader maxDistance="5000"></a-camera>
     </a-scene>
 </body>
 
